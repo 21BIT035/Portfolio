@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/whether_resized.png";
 import chatify from "../../Assets/Projects/visa_resized.png";
 import suicide from "../../Assets/Projects/aiiop_resized.png";
 import bitsOfCode from "../../Assets/Projects/realestate_resized.png";
+import healpay from "../../Assets/Projects/healpay.jpeg";
+import warranty from "../../Assets/Projects/warranty.jpeg";
 
 function Projects() {
   return (
@@ -27,7 +29,7 @@ function Projects() {
       isBlog={false}
       title="VMS Dashboard"
       description="Responsive visitor management system built with React and Node.js, offering smooth UX and API integration."
-      ghLink="https://github.com/soumyajit4419/Chatify"
+      ghLink="https://github.com/21BIT035/Visafrontend.git"
     />
   </Col>
 
@@ -47,7 +49,7 @@ function Projects() {
       isBlog={false}
       title="Weather App"
       description="MERN stack weather app using OpenWeather API for live forecasts and location-based updates."
-      ghLink="https://github.com/soumyajit4419/Editor.io"
+      ghLink="https://github.com/21BIT035/Whether_app.git"
     />
   </Col>
 
@@ -67,8 +69,8 @@ function Projects() {
       isBlog={false}
       title="AI Chat App"
       description="Flutter-based mock app showcasing AI-driven chatbot interactions."
-      ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-      // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      ghLink="https://github.com/21BIT035/Flutter_zaapi.git"
+      
     />
   </Col>
 
@@ -78,10 +80,39 @@ function Projects() {
       isBlog={false}
       title="CRM Dashboard"
       description="Next.js, SQL, and Express-based CRM for order tracking and customer management."
-      ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+      ghLink="https://github.com/21BIT035/Sync.git"
 
     />
   </Col>
+  <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={warranty} // replace with your warranty image
+    isBlog={false}
+    title="Vehicle Warranty Claim System"
+    description="MERN Stack application for managing vehicle warranty claims with Customer, Dealer, and Admin modules, claim approvals, and warranty tracking."
+    ghLink="https://github.com/21BIT035/Warranty_card.git"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={healpay} // replace with your HealPay image
+    isBlog={false}
+    title="HealPay"
+    description="Secure payment platform built using MERN Stack and FastAPI with Post-Quantum Cryptography (Kyber & Dilithium) for enhanced transaction security."
+    ghLink="https://github.com/21BIT035/Healpay"
+  />
+</Col>
+
+<Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={editor} // replace with your dustbin image
+    isBlog={false}
+    title="Smart Dustbin Management System"
+    description="Smart waste monitoring platform with real-time bin status tracking, alerts, collection management, and operational analytics."
+    ghLink=""
+  />
+</Col>
 </Row>
 
       </Container>

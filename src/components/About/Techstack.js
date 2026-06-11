@@ -24,6 +24,11 @@ import MUI from "../../Assets/TechIcons/MUI.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import AWS from "../../Assets/TechIcons/AWS.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
+import FastAPI from "../../Assets/TechIcons/FastAPI.svg";
+import Native from "../../Assets/TechIcons/native.png";
+import Flutter from "../../Assets/TechIcons/flutter.png";
+import Jango from "../../Assets/TechIcons/jango.png";
+
 
 function Techstack() {
   return (
@@ -37,7 +42,6 @@ function Techstack() {
         <div className="tech-icons-text">Javascript</div>
       </Col>
 
-      
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
         <div className="tech-icons-text">Node.Js</div>
@@ -46,7 +50,7 @@ function Techstack() {
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
       </Col>
-      
+
       <Col xs={4} md={2} className="tech-icons">
         <img src={Mongo} alt="mongoDb" />
         <div className="tech-icons-text">Mongo DB</div>
@@ -74,7 +78,6 @@ function Techstack() {
         <div className="tech-icons-text">Docker</div>
       </Col>
 
-
       <Col xs={4} md={2} className="tech-icons">
         <img src={SQL} alt="SQL" />
         <div className="tech-icons-text">Postgresql</div>
@@ -88,7 +91,6 @@ function Techstack() {
         <img src={Java} alt="haskell" />
         <div className="tech-icons-text">Java</div>
       </Col>
-
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Tailwind} alt="tailwind" />
@@ -105,12 +107,30 @@ function Techstack() {
         <div className="tech-icons-text">Postman</div>
       </Col>
 
-
       <Col xs={4} md={2} className="tech-icons">
         <img src={AWS} alt="Postman" className="tech-icon-images" />
         <div className="tech-icons-text">AWS</div>
       </Col>
 
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Jango} alt="FastAPI" className="tech-icon-images" />
+        <div className="tech-icons-text">Django</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={FastAPI} alt="FastAPI" className="tech-icon-images" />
+        <div className="tech-icons-text">FastAPI</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+         <img src={ReactIcon} alt="FastAPI" className="tech-icon-images" />
+        <div className="tech-icons-text">React Native</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+          <img src={Flutter} alt="FastAPI" className="tech-icon-images" />
+        <div className="tech-icons-text">Flutter</div>
+      </Col>
     </Row>
   );
 }

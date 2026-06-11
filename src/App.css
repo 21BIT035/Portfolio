@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+.profile-image-wrapper {
+  padding: 8px;
+  border-radius: 50%;
+  animation: glowBorder 2s infinite ease-in-out;
+}
+
+.profile-image {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+}
+
+@keyframes glowBorder {
+  0% {
+    box-shadow:
+      0 0 10px #ff4dff,
+      0 0 20px #ff4dff,
+      0 0 30px #ff4dff;
+  }
+
+  50% {
+    box-shadow:
+      0 0 20px #ff00ff,
+      0 0 40px #ff00ff,
+      0 0 60px #ff00ff;
+  }
+
+  100% {
+    box-shadow:
+      0 0 10px #ff4dff,
+      0 0 20px #ff4dff,
+      0 0 30px #ff4dff;
+  }
+}
+.star-icon {
+  color: #ffd700;
+  margin-right: 12px;
+  font-size: 14px;
+  filter:
+    drop-shadow(0 0 3px #ffd700)
+    drop-shadow(0 0 8px #ffd700);
+}
+
+.about-activity {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.project-card {
+  margin-bottom: 30px;
+}
+
+.project-card-view {
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.project-card-view:hover {
+  transform: translateY(-8px);
+}
