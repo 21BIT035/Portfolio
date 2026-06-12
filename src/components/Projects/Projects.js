@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/aiiop_resized.png";
 import bitsOfCode from "../../Assets/Projects/realestate_resized.png";
 import healpay from "../../Assets/Projects/healpay.jpeg";
 import warranty from "../../Assets/Projects/warranty.jpeg";
+import dustbin from "../../Assets/Projects/dustbin.png";
 
 function Projects() {
   return (
@@ -39,7 +40,7 @@ function Projects() {
       isBlog={false}
       title="Real Estate"
       description="MERN stack app with AI chatbot for property searches and seamless navigation."
-      ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+      ghLink="https://github.com/21BIT035/RealEstate.git"
     />
   </Col>
 
@@ -106,7 +107,7 @@ function Projects() {
 
 <Col md={4} className="project-card">
   <ProjectCard
-    imgPath={editor} // replace with your dustbin image
+    imgPath={dustbin} // replace with your dustbin image
     isBlog={false}
     title="Smart Dustbin Management System"
     description="Smart waste monitoring platform with real-time bin status tracking, alerts, collection management, and operational analytics."
