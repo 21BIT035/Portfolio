@@ -60,7 +60,7 @@ function Projects() {
       isBlog={false}
       title="Canteen System"
       description="MERN stack ordering system for managing menus, orders, and real-time updates."
-      ghLink="https://github.com/soumyajit4419/Plant_AI"
+      ghLink="https://github.com/21BIT035/Canteen_System.git"
     />
   </Col>
 
@@ -101,7 +101,7 @@ function Projects() {
     isBlog={false}
     title="HealPay"
     description="Secure payment platform built using MERN Stack and FastAPI with Post-Quantum Cryptography (Kyber & Dilithium) for enhanced transaction security."
-    ghLink="https://github.com/21BIT035/Healpay"
+    ghLink="https://github.com/21BIT035/Healpay.git"
   />
 </Col>
 
